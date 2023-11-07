@@ -9,7 +9,7 @@ body {
   /* font-family: 'Nunito', sans-serif; */
   background-color: #FAFAFA;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   /* padding-left: 20px;
    padding-right: 20px; */
 }
@@ -115,5 +115,9 @@ margin-right:150px; */
    padding-right: 10px;
 } 
 .vsechnybubliny div:first-of-type{
+   margin-top: 30px;
+}
+
+.vsechnybubliny > div:nth-of-type(4) {
    margin-top: 30px;
 }

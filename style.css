@@ -1,11 +1,17 @@
-
-*, :after, :before { box-sizing: border-box; }
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    background-color:rgba(250, 250, 250, 1);
-	
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  background-color: #FAFAFA;
+  margin: 0;
+  margin-bottom: 20px;
+  /* padding-left: 20px;
+   padding-right: 20px; */
 }
 /* #FAFAFA
 
@@ -15,23 +21,99 @@ body {
 #FFFFFF rgba(255, 255, 255, 1)
 #407BFF1F rgba(64, 123, 255, 0.12)
  */
- p {
-    color:rgba(139, 139, 139, 1);
-    font-size: 16px;
-    text-align: center;
- }
- h1{
-    font-size: 28px;
-    color:rgba(0, 0, 0, 1);
-    text-align: center;
+p {
+  color: rgba(139, 139, 139, 1);
+  font-size: 16px;
+  text-align: center;
+}
+h1 {
+  font-weight: 600;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+h2 {
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-top: 60px;
+}
+.travel {
+  /* text-align: center; */
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 40px;
+}
+.travel img {
+  width: 100%;
+  height: auto;
+}
 
- }
- h2{
-    color:rgba(0, 0, 0, 1);
-    text-align: center;
-    font-size: 16px;
- }
-.travel{
-    justify-content: center;
-    width: 100%;
+.text {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.bublina, .bublina2 {
+display: flex;
+margin-top: 30px;
+background-color:#407BFF;
+height: 40px;
+width: 195px;
+align-items: center;
+border-radius:20px;
+justify-content: center;
+margin:0 auto;
+/* margin-left:150px;
+margin-right:150px; */
+/* text-align: center; */
+
+}
+.bublina p {  
+   color:#FFFFFF;
+   font-weight: 500;
+   margin:11px auto;
+   
+}
+
+.bublina2 { 
+   margin-top:10px;
+   width: 220px;
+   height: 40px;
+   background-color: #8B8B8B;
+   font-weight: 500;
+  /*  margin-bottom:60px */
+  }
+
+.bublina2 p {
+  color: #FAFAFA;
+}
+
+.bilabublina
+{
+   background: #FFFFFF;
+   border-radius: 10px;
+   align-items: center;
+   display: flex;
+   height: 80px;
+  /*  margin-top:30px; */
+   margin-bottom:15px;
+   box-shadow: 0px 4px 6px #407BFF1F;
+}
+
+.bilabublina img {
+   height: 40px;
+   width: auto;
+   margin-left: 20px;
+   margin-right: 30px;
+}
+.bilabublina p {
+   font-size: 13px;
+   font-weight: 300;
+   padding-right: 10px;
+} 
+.vsechnybubliny div:first-of-type{
+   margin-top: 30px;
 }

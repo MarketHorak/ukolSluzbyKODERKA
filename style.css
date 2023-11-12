@@ -166,13 +166,13 @@ margin-right:150px; */
     
   }
 
-   .vsechnybubliny div:first-of-type {
-      *,inherit;
+  /*  .vsechnybubliny div:first-of-type {
+    margin-top: 0;
     }
     
     .vsechnybubliny > div:nth-of-type(4) {
       margin-top: 0;
-    }
+    } */
   .bublinavedlesebe {
     display: flex;
     align-items: center;

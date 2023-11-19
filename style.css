@@ -6,32 +6,20 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  /* font-family: 'Nunito', sans-serif; */
+
   background-color: #fafafa;
   margin: 0;
   margin-bottom: 50px;
-  /* padding-left: 20px;
-   padding-right: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
 hr {
   border: 2px solid #407bff;
   width: 60px;
   margin-bottom: 30px;
-  /* size: 2px;
-  color:blue;
-  background-color: blue; */
-  /*    align="center" noshade>
-   color: blue;
-   stroke: 2px solid blue; */
 }
-/* #FAFAFA
 
-#8B8B8B rgba(0, 0, 0, 1)
-#8B8B8B rgba(139, 139, 139, 1)
-#407BFF rgba(64, 123, 255, 1)
-#FFFFFF rgba(255, 255, 255, 1)
-#407BFF1F rgba(64, 123, 255, 0.12)
- */
 p {
   color: rgba(139, 139, 139, 1);
   font-size: 16px;
@@ -53,7 +41,6 @@ h2 {
   margin-top: 60px;
 }
 .travel {
-  /* text-align: center; */
   justify-content: center;
   margin-top: 60px;
   margin-left: 75px;
@@ -65,10 +52,6 @@ h2 {
   height: auto;
 }
 
-.text {
-  margin-left: 20px;
-  margin-right: 20px;
-}
 .bublina,
 .bublina2 {
   display: flex;
@@ -80,9 +63,6 @@ h2 {
   border-radius: 20px;
   justify-content: center;
   margin: 0 auto;
-  /* margin-left:150px;
-margin-right:150px; */
-  /* text-align: center; */
 }
 .bublina p {
   color: #ffffff;
@@ -96,7 +76,6 @@ margin-right:150px; */
   height: 40px;
   background-color: #8b8b8b;
   font-weight: 500;
-  /*  margin-bottom:60px */
 }
 
 .bublina2 p {
@@ -133,51 +112,46 @@ margin-right:150px; */
   margin-top: 30px;
 }
 
-/* .tribubliny {
-   display: none;
-} */
+/* // ----------------tablet ------------------------// */
 
 @media screen and (min-width: 650px) and (max-width: 1100px) {
-/* .pckontejner {
-  margin:0 auto;
-  justify-content: center;
+  body {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  /* .kontejner div:first-of-type {
+  margin-top: 10px;
+}
+
+.kontejner > div:nth-of-type(4) {
+  margin-top: 10px;
 } */
-.vsechnybubliny div:first-of-type {
-  margin-top: 10px;
-}
 
-.vsechnybubliny > div:nth-of-type(4) {
-  margin-top: 10px;
-}
-
-
-  .travel{
-    width: 60%;
+  .prvnibox > p {
+    margin-left: 90px;
+    margin-right: 90px;
+    /* // tady prepsat  */
+  }
+  .travel {
+    width: 50%;
     justify-content: center;
     margin: 0 auto;
   }
   .travel img {
-  /*   margin:0 0; */
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
     margin-top: 60px;
-
-   
-    
   }
-
-  /*  .vsechnybubliny div:first-of-type {
+  /*  .kontejner div:first-of-type {
     margin-top: 0;
     }
-    
-    .vsechnybubliny > div:nth-of-type(4) {
+     .kontejner > div:nth-of-type(4) {
       margin-top: 0;
     } */
   .bublinavedlesebe {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    /* gap: 10px; */
+    justify-content: center;
     margin: 0;
     margin-top: 30px;
     margin-bottom: 80px;
@@ -187,82 +161,138 @@ margin-right:150px; */
 
   .bublina,
   .bublina2 {
-   margin:  0 5px;
- padding: 5px; 
-   
+    margin: 0 5px;
+    padding: 5px;
   }
   .text > p {
     margin-left: 110px;
     margin-right: 110px;
   }
   .tribubliny {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
-   margin-left:20px;
-   margin-right:20px;
-   align-items: center;
-   justify-content: center;
-   /* flex:1 1 calc((100% / 3)-12px); */
-  }
-  .vsechnybubliny {
-  /*   display: flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin-left:20px;
-    margin-right:20px;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
     align-items: center;
-    justify-content: space-around; */
-    
+    justify-content: center;
   }
-  .bilabublina {
-   flex: 1 1 calc((100% / 3)-12px);
-   margin:10px 0;
-   margin-left:18px;
-   padding:5px 10px;
-    flex-direction: column;
-  /*  width: 180px;*/
-   height:172px; 
-   justify-content: center;
 
+  .bilabublina {
+    flex: 1 1 calc((100% / 3)-12px);
+    margin: 10px 0;
+    margin-left: 18px;
+    padding: 5px 10px;
+    flex-direction: column;
+    /*  width: 180px;*/
+    height: 172px;
+    justify-content: center;
   }
   .bublinavedlesebe p {
- font-size: 14px;
+    font-size: 14px;
   }
-/*   .bublina, .bublina2 {
-  }*/
-} 
-.text > p, .vsechnybubliny > p{
-  margin-left: 110px;
-  margin-right: 110px;
 }
 
+/* // ------------- PC verze --------------------- */
 
 @media screen and (min-width: 1100px) {
+  body {
+    padding: 0;
+    margin: 80px 60px;
+  }
 
-/*  body {
-margin: 0;
-margin: 80px 60px;
-}
-.text {
-  margin:0;
-
+  .travel {
+    width: 100%;
+    order: 1;
+    margin: 0;
+    margin-right: 40px;
+  }
+  .travel img {
+    margin: 0;
+    height: 100%;
+  }
+  /* hr {
 } */
 
-/* .pckontejner {
-  display: flex;
+  .prvnibox {
+    display: flex;
+    height: 360px;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 70px;
+    margin-right: 100px;
+  }
 
-} */
+  .box p,
+  h1,
+  h2,
+  hr {
+    text-align: left;
+  }
 
-/* .treti {
-  display: flex;} */
-/*   flex-basis: 100%; */
+  .bublinavedlesebe {
+    display: flex;
+    justify-content: flex-start;
+  }
 
+  .bublina2,
+  .bublina {
+    margin: 0;
+  }
+  .bublina2 {
+    margin-left: 10px;
+  }
 
-/* .bilabublina {
-  flex:1 1 100%;
+  .druhybox,
+  .tretibox {
+    display: flex;
+    flex-direction: row;
+    height: 191px;
+    margin-top: 80px;
+  }
+  .box2 {
+    order: 2;
+    margin: 0;
+    padding: 0;
+    margin-left: 60px;
+    text-align: left;
+  }
+
+  .box2 > p {
+    margin: 0;
+    padding: 0;
+
+    text-align: left;
+  }
+  .druhybox .tribubliny,
+  .tretibox .tribubliny {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 0;
+  }
+  .bilabublina {
+    flex: 1 1 calc((100% / 3)-12px);
+    margin: 10px 0;
+    margin-left: 18px;
+    padding: 15px 20px;
+    flex-direction: column;
+    width: 170px;
+    height: auto;
+    justify-content: center;
+  }
+
+  .box3 {
+    margin-right: 60px;
+    /*   text-align: left; */
+  }
+  .box3 > p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
 }
-.tribubliny {
-  display: block;
-}*/
-} 

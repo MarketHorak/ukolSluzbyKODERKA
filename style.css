@@ -88,7 +88,7 @@ h2 {
   align-items: center;
   display: flex;
   height: 80px;
-  /*  margin-top:30px; */
+ 
   margin-bottom: 15px;
   box-shadow: 0px 4px 6px #407bff1f;
 }
@@ -191,6 +191,11 @@ h2 {
   .bublinavedlesebe p {
     font-size: 14px;
   }
+  .box>p, .box2>p,box3>p {
+    margin-right: 80px;
+    margin-left: 80px;
+
+  }
 }
 
 /* // ------------- PC verze --------------------- */
@@ -202,7 +207,7 @@ h2 {
   }
 
   .travel {
-    width: 100%;
+    width: auto;
     order: 1;
     margin: 0;
     margin-right: 40px;
@@ -210,9 +215,11 @@ h2 {
   .travel img {
     margin: 0;
     height: 100%;
+    width: 470px;
   }
-  /* hr {
-} */
+  hr {
+    margin-left:0;
+}
 
   .prvnibox {
     display: flex;
@@ -225,12 +232,13 @@ h2 {
     text-align: left;
     margin-top: 70px;
     margin-right: 100px;
+    width:490px;
   }
 
   .box p,
   h1,
-  h2,
-  hr {
+  h2
+{
     text-align: left;
   }
 
@@ -255,10 +263,12 @@ h2 {
     margin-top: 80px;
   }
   .box2 {
+    width: 430px;
     order: 2;
     margin: 0;
     padding: 0;
     margin-left: 60px;
+    margin-right:30px;
     text-align: left;
   }
 
@@ -277,7 +287,8 @@ h2 {
   }
   .bilabublina {
     flex: 1 1 calc((100% / 3)-12px);
-    margin: 10px 0;
+/*     margin: 10px 0; */
+    margin-bottom: 0;
     margin-left: 18px;
     padding: 15px 20px;
     flex-direction: column;
@@ -285,11 +296,19 @@ h2 {
     height: auto;
     justify-content: center;
   }
+ .bilabublina:nth-child(1) {
+    margin-left: 0;
+  }
 
+  .tretibox > .tribubliny{
+    margin-right: 30px;
+  }
   .box3 {
     margin-right: 60px;
+    width: 430px;
     /*   text-align: left; */
   }
+
   .box3 > p {
     margin: 0;
     padding: 0;
